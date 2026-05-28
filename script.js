@@ -1,8 +1,22 @@
-function pushPrechatFields() {
+async function getIPAddress() {
+    try {
+        const response = await fetch('https://api.ipify.org?format=json');
+        const data = await response.json();
+        return data.ip;
+    } catch (e) {
+        console.warn("IP fetch failed:", e);
+        return 'unavailable';
+    }
+}
+
+async function pushPrechatFields() {
 	try {
 		if (window.embeddedservice_bootstrap?.prechatAPI?.setHiddenPrechatFields) {
-
-			const preChatFields = { "url": window.location.href }
+			const ipAddress = await getIPAddress();
+            const preChatFields = {
+                "url": window.location.href,      // Full URL with UTM params
+                "ipAddress": ipAddress             // Visitor IP address
+            };
 			console.log("📨 Prechat fields sent:", preChatFields);
 			embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields(preChatFields);
 		}
