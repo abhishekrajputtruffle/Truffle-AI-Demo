@@ -1,1 +1,24 @@
+/* Hide the text label on the chat button */ 
+.embeddedServiceHelpButton .helpButton .uiButton .helpButtonLabel 
+{ 
+  display: none !important; 
+} 
+/* Adjust the button container to fit just the image/icon */ 
+.embeddedServiceHelpButton .helpButton .uiButton 
+{ 
+  min-width: 56px !important; 
+  width: 56px !important; 
+  height: 56px !important; 
+  border-radius: 50% !important; 
+  padding: 0 !important; 
+} /* Center the image or icon inside the button */ 
+.embeddedServiceHelpButton .helpButton .uiButton .embeddedServiceIcon 
+{ 
+  margin: 0 !important; 
+  display: flex !important; 
+  align-items: center !important; 
+  justify-content: center !important; 
+  width: 100% !important; 
+  height: 100% !important; 
+}
 
