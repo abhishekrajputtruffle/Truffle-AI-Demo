@@ -1,1 +1,9 @@
+.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton div[class="embeddedMessagingIconContainer"] > img.embeddedMessagingIconChat{
+border-radius: 0 !important;
+}
 
+.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton{
+   width: 65px !important;
+   height: 65px !important;
+   Background: transparent !important; // to make background transparent
+}
