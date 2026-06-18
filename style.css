@@ -8,3 +8,13 @@
    Background: transparent !important; 
    border-radius: 0 !important
 }
+.minimizedButton {
+    border-radius: 0 !important;
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.minimizedButtonIconContainer img {
+    border-radius: 0 !important;
+}
+    
