@@ -6,6 +6,12 @@
    Background: transparent !important; 
    border-radius: 0 !important
 }
+
+.embeddedMessagingConversationButton:focus {
+    outline: transparent !important;
+    outline-offset: 0px;
+}
+
 .minimizedButton{
     border-radius: 0 !important;
     background: transparent !important;
