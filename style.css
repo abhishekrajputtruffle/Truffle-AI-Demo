@@ -6,7 +6,7 @@
    Background: transparent !important; 
    border-radius: 0 !important
 }
-.minimizedButton {
+.minimizedButtonWrapper .minimizedButton {
     border-radius: 0 !important;
     background: transparent !important;
     background-color: transparent !important;
@@ -14,5 +14,10 @@
 
 .minimizedButtonIconContainer img {
     border-radius: 0 !important;
+}
+
+.minimizedButton:focus {
+    outline: transparent !important;
+    outline-offset: 0px;
 }
     
