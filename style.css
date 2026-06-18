@@ -6,8 +6,5 @@
    width: 65px !important;
    height: 65px !important;
    Background: transparent !important; 
-}
-
-.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton {
-    border-radius: 0 !important
+   border-radius: 0 !important
 }
