@@ -6,7 +6,7 @@
    Background: transparent !important; 
    border-radius: 0 !important
 }
-.minimizedButtonWrapper .minimizedButton {
+.minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf] {
     border-radius: 0 !important;
     background: transparent !important;
     background-color: transparent !important;
