@@ -1,5 +1,5 @@
-.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton div[class="embeddedMessagingIconContainer"] > img.embeddedMessagingIconChat{
-border-radius: 0 !important;
+.embeddedMessagingIconContainer > img.embeddedMessagingIconChat {
+    border-radius: 0 !important;
 }
 
 .embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton{
