@@ -5,5 +5,9 @@
 .embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton{
    width: 65px !important;
    height: 65px !important;
-   Background: transparent !important; // to make background transparent
+   Background: transparent !important; 
+}
+
+.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton {
+    border-radius: 0 !important
 }
