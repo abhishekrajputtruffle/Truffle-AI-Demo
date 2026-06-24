@@ -29,9 +29,9 @@ function initEmbeddedMessaging() {
 		embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 		embeddedservice_bootstrap.init(
-			'00DOv00000JA9gb',
+			'00DOt000011sVAb',
 			'AI_Web_Chat',
-			'https://tierpoint--lassoqa.sandbox.my.site.com/ESWAIWebChat1779711606789',
+			'https://tierpoint--lassoqa.sandbox.my.site.com/ESWAIWebChat1782290128350',
 			{
 				scrt2URL: 'https://tierpoint--lassoqa.sandbox.my.salesforce-scrt.com'
 			}
