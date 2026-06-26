@@ -12,6 +12,17 @@
     outline-offset: 0px;
 }
 
+.minimizedButtonWrapper .minimizedButton{
+    Background: transparent !important; 
+    border-radius: 0 !important
+}
+.minimizedButton:focus {
+    outline: transparent !important;
+    outline-offset: 0px;
+}
+.minimizedButton[lwc-2tu55qmbbaf] div[class="minimizedButtonIconContainer"][lwc-2tu55qmbbaf] > img[lwc-2tu55qmbbaf] {
+    border-radius: 0 !important;
+}
 .minimizedButton{
     border-radius: 0 !important;
     background: transparent !important;
