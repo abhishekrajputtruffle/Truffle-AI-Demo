@@ -1,17 +1,38 @@
-.embeddedMessagingIconContainer > img.embeddedMessagingIconChat {
-    border-radius: 0 !important;
+/* ============================================================
+   Vera Search Bar
+   ============================================================ */
+
+#vera-search-container {
+  display: flex;
+  gap: 8px;
+  max-width: 480px;
+  margin: 24px 0;
 }
 
-.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton{
-   Background: transparent !important; 
-   border-radius: 0 !important
+#veraSearchInput {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  outline: none;
 }
 
-.embeddedMessagingConversationButton:focus {
-    outline: transparent !important;
-    outline-offset: 0px;
+#veraSearchInput:focus {
+  border-color: #0070d2;
 }
-.minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf]{
-    border-radius: 0 !important;
-    background-color: transparent !important;
+
+#veraSearchButton {
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #0070d2;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#veraSearchButton:hover {
+  background-color: #005fb2;
 }
