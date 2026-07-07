@@ -36,3 +36,19 @@
 #veraSearchButton:hover {
   background-color: #005fb2;
 }
+/* ========Chat Icon Changes========= */
+.embeddedMessagingIconContainer > img.embeddedMessagingIconChat {
+    border-radius: 0 !important;
+}
+.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton{
+   Background: transparent !important; 
+   border-radius: 0 !important
+}
+.embeddedMessagingConversationButton:focus {
+    outline: transparent !important;
+    outline-offset: 0px;
+}
+.minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf]{
+    border-radius: 0 !important;
+    background-color: transparent !important;
+}
