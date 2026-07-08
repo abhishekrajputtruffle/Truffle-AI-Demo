@@ -55,6 +55,9 @@
  .embedded-messaging > .embeddedMessagingFrame[class~="isMinimized"] {
         border-radius: 0px !important;
     }
-.embeddedMessagingIconProgressIndicator{
-	color: red !important;
+.embeddedMessagingIconProgressIndicator .embeddedMessagingIconOuterArc{
+	fill: #1A4086 !important;
+}
+.embeddedMessagingIconProgressIndicator .embeddedMessagingIconInnerArc{
+	fill: #1A4086 !important;
 }
