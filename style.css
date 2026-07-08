@@ -55,6 +55,6 @@
  .embedded-messaging > .embeddedMessagingFrame[class~="isMinimized"] {
         border-radius: 0px !important;
     }
-.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButtonLoading{
+.embeddedMessagingIconProgressIndicator{
 	color: red !important;
 }
