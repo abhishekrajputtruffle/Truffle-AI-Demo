@@ -52,3 +52,7 @@
     border-radius: 0 !important;
     background-color: transparent !important;
 }
+
+.minimizedButtonWrapper, .minimizedButton{
+    background-color: transparent !important;
+}
